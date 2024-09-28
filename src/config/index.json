@@ -1,0 +1,119 @@
+{
+  "company": {
+    "name": "React landing page 2021",
+    "logo": "/assets/buddy_logo.svg"
+  },
+  "navigation": [
+    {
+      "name": "Quienes somos",
+      "href": "about_us"
+    },
+    {
+      "name": "FAQs",
+      "href": "faqs"
+    }
+  ],
+  "callToAction": {
+    "text": "Descargate la app",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Transforma vidas, descarga ",
+    "subtitle": "Buddy",
+    "description": "Buddy es una plataforma que fomenta la interacción entre distintas generaciones, promoviendo conexiones significativas a través de actividades compartidas. Con un enfoque en el bienestar emocional, Buddy ofrece un espacio donde personas de todas las edades pueden disfrutar de compañía y experiencias enriquecedoras, ayudando a prevenir el aislamiento social.",
+    "img": "/assets/concept-banner.jpg",
+    "primaryAction": {
+      "text": "Descargate la app",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "Quiero ser un Buddy",
+      "href": "#"
+    }
+  },
+  "aboutUs": {
+    "title": "¿Quiénes somos?",
+    "items": [
+      {
+        "title": "¿Que significa Buddy?",
+        "description": "Somos Buddy, una plataforma que busca combatir la soledad en los adultos mayores conectándolos con jóvenes que quieren tener un impacto positivo mientras generan ingresos. Nuestro objetivo es crear conexiones intergeneracionales que enriquezcan la vida de los adultos mayores y permitan a los jóvenes convertirse en una parte importante de sus vidas, a través de actividades compartidas y momentos significativos. Buddy es una solución preventiva que promueve el bienestar emocional y mental de nuestros mayores.",
+        "img": "/assets/buddy_logo.svg"
+      },
+      {
+        "title": "Haz la diferencia en la vida de un adulto mayor mientras generas ingresos.",
+        "description": "Ser un Buddy significa ofrecer tu tiempo para compartir experiencias con adultos mayores, ayudándolos a sentirse acompañados y conectados. Al unirte a Buddy, pasarás por un proceso de selección que garantiza la seguridad y calidad del servicio. Comparte caminatas, salidas, y momentos únicos mientras mejoras la vida de alguien más. ¿Estás listo para generar un impacto positivo?",
+        "img": "/assets/impacto-positivo.jpg"
+      },
+      {
+        "title": "Aislamiento social y depresión",
+        "description": "Un estudio publicado en la revista Proceedings of the National Academy of Sciences analizó a 6500 personas mayores de 52 años a lo largo de siete años. Los resultados indicaron que las personas mayores que experimentan soledad tienen un 50% más de probabilidades de fallecer prematuramente en comparación con aquellas que mantienen conexiones sociales.",
+        "img": "/assets/graficos.png"
+      }
+    ]
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Qué es un Buddy?",
+        "answer": "Un Buddy es un joven que ofrece su compañía y apoyo a adultos mayores. Su objetivo es crear conexiones significativas entre generaciones, brindando un espacio para el diálogo, la amistad y el aprendizaje mutuo. A través de estas interacciones, los Buddies pueden ayudar a mejorar la calidad de vida de las personas mayores, fomentando la socialización y reduciendo la sensación de aislamiento."
+      },
+      {
+        "question": "¿Para qué puedo contactarme con un Buddy?",
+        "answer": "Puedes contactarte con un Buddy para recibir compañía y apoyo emocional. Estas interacciones son valiosas para aquellos que pueden sentirse solos o aislados, permitiendo que los adultos mayores disfruten de la compañía de alguien más joven. Esto puede ser una manera de fomentar el bienestar emocional y ofrecer un sentido de comunidad.  Además cuando solicitas un Buddy, la aplicación recomienda a la persona que mejor se adapta a tus intereses, asegurando una experiencia más enriquecedora."
+      },
+      {
+        "question": "¿Puedo pedir un Buddy para otra persona",
+        "answer": "Sí, puedes solicitar un Buddy para otra persona, como un familiar querido. Esto permite que alguien cercano a ti reciba compañía y apoyo, brindando tranquilidad a quienes deseen que sus seres queridos estén acompañados sin que ellos tengan que gestionar el contacto por sí mismos."
+      },
+      {
+        "question": "¿Cómo se seleccionan los Buddies",
+        "answer": "Todos los Buddies son seleccionados a través de un riguroso proceso de selección para garantizar seguridad y calidad en las interacciones."
+      },
+      {
+        "question": "¿Qué tipo de actividades puedo hacer con un Buddy?",
+        "answer": "Con un Buddy, puedes participar en diversas actividades que promueven la socialización y el disfrute. Algunas opciones incluyen:",
+        "items": [
+          {
+            "title": "Juegos",
+            "description": "Compartir momentos jugando juegos de mesa o videojuegos, lo que puede ser muy divertido."
+          },
+          {
+            "title": "Caminatas",
+            "description": "Realizar paseos al aire libre que no solo son saludables, sino que también ofrecen la oportunidad de charlar y disfrutar del entorno."
+          },
+          {
+            "title": "Actividades propuestas por la aplicación",
+            "description": "La app puede sugerir eventos culturales, talleres o clases que son perfectas para hacer juntos."
+          },
+          {
+            "title": "Conversaciones",
+            "description": "Simplemente disfrutar de una charla, donde se pueden compartir historias y experiencias de vida."
+          }
+        ]
+      },
+      {
+        "question": "¿Cómo puedo registrarme?",
+        "answer": "Para registrarte en la aplicación, debes descargarla desde la tienda correspondiente, completar un formulario con tus datos personales y crear un perfil, ya sea para ser un Buddy como para solicitar uno."
+      },
+      {
+        "question": "¿Por qué ser Buddy?",
+        "answer": "Ser un Buddy te brinda la oportunidad de:",
+        "items": [
+          {
+            "title": "Impactar positivamente",
+            "description": "Ayudar a personas mayores a combatir la soledad y fomentar su bienestar emocional."
+          },
+          {
+            "title": "Desarrollo personal",
+            "description": "Aprender de las experiencias de vida de los mayores, lo que puede enriquecer tu perspectiva."
+          },
+          {
+            "title": "Conexión social",
+            "description": "Establecer relaciones intergeneracionales significativas, creando vínculos que son gratificantes para ambas partes."
+          }
+        ]
+      }
+    ]
+  }
+}
