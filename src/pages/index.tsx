@@ -24,16 +24,19 @@ const App = () => {
         <MainHeroImage />
       </div>
       <Canvas />
-      <LazyShow>
-         <AboutUs />
-      </LazyShow>
-      <LazyShow>
-        <FrequentlyAskedQuestions />
-        <Canvas />
-      </LazyShow>
-      <LazyShow>
-        <About />
-      </LazyShow>
+        <LazyShow>
+            <AboutUs />
+        </LazyShow>
+        <LazyShow>
+            <React.Fragment>
+                <FrequentlyAskedQuestions />
+                <Canvas />
+            </React.Fragment>
+        </LazyShow>
+
+        <LazyShow>
+            <About />
+        </LazyShow>
     </div>
   );
 };

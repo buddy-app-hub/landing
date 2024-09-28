@@ -10,7 +10,7 @@ class MyDocument extends Document {
         <Head>
             <title>Buddy</title>
             <meta name="description" content="Buddy" />
-            <link rel="icon" href="/assets/images/buddy_logo.svg" />
+            <link rel="icon" href="/assets/buddy_logo.svg" />
         </Head>
         <body>
           <Main />
