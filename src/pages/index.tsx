@@ -1,30 +1,41 @@
-import AppBar from "@/components/AppBar";
-import Banner from "@/components/Banner";
+import React from 'react';
 
-const Index: React.FC = () => {
-    return (
-        <div className="grid items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
+import About from '../components/About';
+import Canvas from '../components/Canvas';
+import FrequentlyAskedQuestions from '../components/FrequentlyAskedQuestions';
+import Header from '../components/Header';
+import LazyShow from '../components/LazyShow';
+import MainHero from '../components/MainHero';
+import MainHeroImage from '../components/MainHeroImage';
+import AboutUs from "../components/AboutUs";
 
-            <AppBar />
-
-            <main className="flex flex-col row-start-2 sm:items-start" style={{ width: '100%' }}>
-                <Banner />
-
-                {/*<AboutUs />*/}
-
-                <div>Proximamente</div>
-
-                <div style={{ height: '250px' }} />
-
-                {/*          <WantToBeBuddy />
-
-          <FrequentlyAskedQuestions />
-
-          <Footer />*/}
-
-            </main>
+const App = () => {
+  return (
+    <div className={`bg-background grid gap-y-16 overflow-hidden`}>
+      <div className={`relative bg-background`}>
+        <div className="max-w-7xl mx-auto">
+          <div
+            className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
+          >
+            <Header />
+            <MainHero />
+          </div>
         </div>
-    );
+        <MainHeroImage />
+      </div>
+      <Canvas />
+      <LazyShow>
+         <AboutUs />
+      </LazyShow>
+      <LazyShow>
+        <FrequentlyAskedQuestions />
+        <Canvas />
+      </LazyShow>
+      <LazyShow>
+        <About />
+      </LazyShow>
+    </div>
+  );
 };
 
-export default Index;
+export default App;
