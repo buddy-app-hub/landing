@@ -62,7 +62,7 @@ function AccordionFAQ({
             expanded ? 'text-primary' : ''
           } hover:text-primary`}
         >
-          <div>{highlightWords(question)}</div>
+          {highlightWords(question)}
         </p>
       </AccordionSummary>
       <AccordionDetails>
@@ -83,7 +83,7 @@ function AccordionFAQ({
   );
 }
 
-const Features = () => {
+const FrequentlyAskedQuestions = () => {
   const { faqs } = config;
   const { title, items: faqsList } = faqs;
 
@@ -115,4 +115,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default FrequentlyAskedQuestions;
