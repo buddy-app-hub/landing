@@ -8,6 +8,7 @@ import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import AboutUs from "../components/AboutUs";
+import MockUps from "../components/MockUps";
 
 const App = () => {
   return (
@@ -27,9 +28,14 @@ const App = () => {
         <LazyShow>
             <AboutUs />
         </LazyShow>
+
+        <LazyShow>
+            <FrequentlyAskedQuestions />
+        </LazyShow>
+
         <LazyShow>
             <React.Fragment>
-                <FrequentlyAskedQuestions />
+                <MockUps />
                 <Canvas />
             </React.Fragment>
         </LazyShow>

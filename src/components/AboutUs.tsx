@@ -32,7 +32,7 @@ const AboutUsItem = ({
   );
 
   const imageComponent = (
-    <div className={`w-full sm:w-1/2 p-6`}>
+    <div className={`w-full sm:w-1/2 p-6`} style={{ alignSelf: 'center', placeItems: 'center' }}>
       <img className="h-6/6" src={image} alt={title} />
     </div>
   );
